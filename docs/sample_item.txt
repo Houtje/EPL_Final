@@ -1,0 +1,4 @@
+[A/NC] Multifex drills pierce the horizon.
+[A/C] It's Multifex drills which pierce the horizon.
+[P/NC] The horizon is pierced by Multifex drills.
+[P/C] It's the horizon which is pierced by Multifex drills.
