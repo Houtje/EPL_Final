@@ -1,0 +1,31 @@
+--Joris' Feedback--
+Overall the proposal is very good, the language is clear and concise and the message well communicated, with no major flaws. At best I can give you a few small remarks to take into consideration:
+
+Advertising is used as a leading subject in the introduction,but the main thrust of the proposal is about transformations and structural or syntactical complexity. This gives the unfortunate impression that either the context of advertising is ultimately unimportant, and the intro was something of a red herring, or it is actually an essential part of the research but one you accidentally omit. Given the reappearance of the word near the conclusion it ultimately doesn't impede understanding of the proposal, but perhaps putting less or more focus on advertising could help alleviate possible confusion.
+
+While you give a very solid description of your experimental design you do not describe your procedures for gathering and analyzing the data in as much detail. It might be good to at least mention where you intend to recruit participants and/or how you intend to analyze the data, specifically what technologies or techniques you intend to use. As both of these things are important in understanding the potential limits of your work.
+
+You already explain part of your expected results in the experimental methods section. It might be better to attempt to reserve this for the expected results section, so as to keep the experimental methods section more concise.
+
+
+--Tim's Feedback--
+Overall, this seems like an appropriate research proposal. The necessary things are touched on, the main ideas are clear, and we can give a preliminary judgement of the upcoming research. I can appreciate the idea for research here as well, as it tests a new condition in an otherwise well-established experiment. Perhaps in the methods section it should initially be made clear that adverb placement will be dropped (a good choice in my opinion), but this is relatively minor.
+
+For the paper that will be built upon this research proposal, it might be pleasant if there were some more sources included. The proposal leans very heavily on the Bradley and Meeds (2002) paper, and while this is understandable, it is convenient if the introduction also includes secondary sources to illustrate the theory in play.
+
+As a point of internal feedback: in the proposal, “recognition” and “recall” are used together, yet only recall is mentioned as a thing to be measured on. If my memory does not betray me, these two concepts are not entirely the same, and perhaps some consideration should be given to dealing with these concepts.
+
+Testing recall here is difficult as you already indicate, but as of yet it is not entirely clear how this will be dealt with. Perhaps here too, inspiration can be taken from the original paper, with a quick video on which you ask questions afterwards to check whether people have paid any form of attention. This is especially important since recall seems to be the main measure on which you judge the effect, and then carelessness might cost you accuracy on an otherwise very solid research proposal.
+
+
+--Yaron's Feedback--
+Thanks for your research proposal. I like the setup and research questions and hope that our discussion on Thursday clarified things in terms of the methodology. See the grade breakdown below and additional comments in the attached PDF.
+
+Intro: 1.25/2
+The background is solid, but the research questions and hypothesis can be made more precise. See comment in the pdf.
+
+Methods: 1.25/2
+The general description of the procedure is clear, but the entire list of transformation you’ll be manipulating and an example stimulus is necessary to understand what an experimental item looks like. Make sure your methods section in the final paper is clearer.
+
+Expected results: 1.5/2
+You’re investigating new transformation and may find a difference in the complexity of various transformation on the basis of the various measures you have. Surely you have more to say about the implications of your expected results beyond replication. In your final paper, flesh-out your model of attention, recall and attitude and why (and how) syntactic complexity plays a role. This is an interesting endeavour and there’s lots to say about it!
