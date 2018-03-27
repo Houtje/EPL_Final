@@ -1,0 +1,28 @@
+Intro
+Instructions
+Question DUM1
+Attitude DUM1
+Question 1
+Attitude 1
+Question X
+Attitude X
+Question N
+Attitude N
+Question DUM2
+Attitude DUM2
+Distractor D
+Attitude D
+<transitie?>
+Recall DUM1
+SynRec DUM1
+Recall 1
+SynRec 1
+Recall X
+SynRec X
+Recall N
+SynRec N
+Recall DUM2
+SynRec DUM2
+Recall D
+Attitude D
+<comments?>
