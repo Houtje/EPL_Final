@@ -9,7 +9,7 @@ var progressBarText = "Voortgang"
 var defaults =
 [
   "Form", { hideProgressBar: true },
-  "Message", { hideProgressBar: true, continueMessage: "Klik hier om door te gaan" }
+  "Message", { hideProgressBar: true, transfer: "keypress" }
 ];
 
 var items =
