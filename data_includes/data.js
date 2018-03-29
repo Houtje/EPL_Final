@@ -1,10 +1,8 @@
 var shuffleSequence = seq("intro", "instructions");
 
-var completionMessage = "De data is verzonden naar de server. Bedankt voor uw deelname!"
+var completionMessage = "Uw antwoorden zijn verzonden naar de server. Bedankt voor uw deelname!"
 
 var progressBarText = "Voortgang"
-
-
 
 var defaults =
 [
