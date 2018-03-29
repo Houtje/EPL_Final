@@ -8,6 +8,6 @@ var defaults =
 
 var items =
 [
-  ["intro", "Form", {continueMessage: "Click here to continue", html: { include: "intro.html" } } ],
-  ["instructions", "Message", {continueMessage: "Click here to continue", html: { include: "instructions.html" } } ], 
+  ["intro", "Form", {continueMessage: "Klik hier om door te gaan", html: { include: "intro.html" } } ],
+  ["instructions", "Message", {continueMessage: "Klik hier om door te gaan", html: { include: "instructions.html" } } ], 
 ];
