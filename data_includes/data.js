@@ -35,35 +35,35 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_1", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<camera> fotografeert onmiddelijk jouw herinnering." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> fotografeert onmiddelijk jouw herinnering." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_2", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door <camera>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_3", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <camera> die jouw herinnering onmiddelijk fotografeert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die jouw herinnering onmiddelijk fotografeert." ] ] },
     "Question", { q: "Zou u dit product kopen?" },
   ],
   [ [ "item2_4", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door <camera>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_1", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<medicijn> verlicht langdurig de pijn." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verlicht langdurig de pijn." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_2", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "De pijn wordt langdurig verlicht door <medicijn>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "De pijn wordt langdurig verlicht door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_3", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <medicijn> wat de pijn langdurig verlicht." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat de pijn langdurig verlicht." ] ] },
     "Question", { q: "Zou u dit product kopen?" },
   ],
   [ [ "item3_4", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door <medicijn>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_1", 4 ],
@@ -75,7 +75,7 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_3", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die zekerheid altijd verleent." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat zekerheid altijd verleent." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_4", 4 ],
@@ -91,7 +91,7 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_3", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die rugklachten effectief vermindert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat rugklachten effectief vermindert." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_4", 5 ],
@@ -143,7 +143,7 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item8_4", 8 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijktmatig bedekt wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijkmatig bedekt wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item9_1", 9 ],
