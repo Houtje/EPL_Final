@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", "instructions", rshuffle(startsWith("item")));
+var shuffleSequence = seq("intro", "instructions", sepWith("sep", rshuffle(startsWith("item"))));
 
 var completionMessage = "Uw antwoorden zijn verzonden naar de server. Bedankt voor uw deelname!"
 
@@ -15,6 +15,7 @@ var defaults =
 
 var items =
 [
+  [ "sep", "Separator", { transfer: 1000, normalMessage: "Hierna volgt nog een slogan." } ]
   [ "intro", "Form", { continueMessage: "Klik hier om door te gaan", html: { include: "intro.html" } } ],
   [ "instructions", "Message", { html: { include: "instructions.html" } } ], 
   [ [ "item1_1", 1 ],
