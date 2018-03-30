@@ -17,19 +17,19 @@ var items =
 [
   [ "intro", "Form", { continueMessage: "Klik hier om door te gaan", html: { include: "intro.html" } } ],
   [ "instructions", "Message", { html: { include: "instructions.html" } } ], 
-  [ "item1_1",
+  [ [ "item1_1", 1 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Multifex doorboort razendsnel de hemel." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
-  [ "item1_2",
+  [ [ "item1_2", 1 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "De hemel wordt razendsnel doorboord door Multifex." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
-  [ "item2_1",
+  [ [ "item2_1", 2 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<camera> fotografeert onmiddelijk jouw herinnering." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
-  [ "item2_2",
+  [ [ "item2_2", 2 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door <camera>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ]
