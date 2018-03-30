@@ -193,5 +193,21 @@ var items =
   [ [ "item11_4", 11 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw horizon die informatief verbreed wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item12_1", 12 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verscherpt verrassend elk gerecht." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item12_2", 12 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "elk gerecht wordt verrassend verscherpt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item12_3", 12 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat elk gerecht verrassend verscherpt." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item12_4", 12 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elk gerecht dat verrassend verscherpt wordt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
   ]
 ];
