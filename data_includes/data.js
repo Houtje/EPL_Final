@@ -35,19 +35,19 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_1", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> fotografeert onmiddelijk jouw herinnering." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "FlashClick fotografeert onmiddelijk jouw herinnering." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_2", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door FlashClick." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_3", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die jouw herinnering onmiddelijk fotografeert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is FlashClick die jouw herinnering onmiddelijk fotografeert." ] ] },
     "Question", { q: "Zou u dit product kopen?" },
   ],
   [ [ "item2_4", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door FlashClick." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_1", 3 ],
