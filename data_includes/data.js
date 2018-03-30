@@ -10,7 +10,7 @@ var defaults =
 [
   "Form", { hideProgressBar: true },
   "Message", { hideProgressBar: true, continueMessage: "Klik hier om door te gaan" },
-  "Question", { as: ["1", "2", "3", "4", "5", "6", "7"], presentAsScale: true, leftComment: "Nee", rightComment "Ja" }
+  "Question", { as: ["1", "2", "3", "4", "5", "6", "7"], presentAsScale: true, leftComment: "Nee", rightComment: "Ja" }
 ];
 
 var items =
