@@ -81,4 +81,20 @@ var items =
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is zekerheid wat altijd verleend wordt door <>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
+  [ [ "item5_1", 5 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> vermindert effectief rugklachten." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item5_2", 5 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Rugklachten worden effectief verminderd door <>" ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item5_3", 5 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die rugklachten effectief vermindert." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item5_4", 5 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het zijn rugklachten die effectief verminderd worden door <>." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
 ];
