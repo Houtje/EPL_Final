@@ -42,7 +42,7 @@ var items =
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item2_3", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <camera> die onmiddelijk jouw herinnering fotografeert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <camera> die jouw herinnering onmiddelijk fotografeert." ] ] },
     "Question", { q: "Zou je dit product kopen?" },
   ],
   [ [ "item2_4", 2 ],
@@ -58,11 +58,27 @@ var items =
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item3_3", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <medicijn> wat langdurig de pijn verlicht." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <medicijn> wat de pijn langdurig verlicht." ] ] },
     "Question", { q: "Zou je dit product kopen?" },
   ],
-  [ [ "item4_4", 3 ],
+  [ [ "item3_4", 3 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door <medicijn>." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item4_1", 4 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verleent altijd zekerheid" ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item4_2", 4 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Zekerheid wordt altijd verleend door <>" ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item4_3", 4 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> die zekerheid altijd verleent." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item4_4", 4 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is zekerheid wat altijd verleend wordt door <>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
 ];
