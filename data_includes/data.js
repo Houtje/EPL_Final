@@ -65,7 +65,7 @@ var items =
     "Question", { q: "Was de inhoud van de slogan helder?" },
     "Question", { q: "Vond u dit product interessant?" },
     "Question", { q: "Zou u dit product aan anderen aanbevelen?" },
-    "Question", { q: "Zou u dit product kopen?" },
+    "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_4", 2 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door Flashclick." ] ] },
@@ -93,7 +93,7 @@ var items =
     "Question", { q: "Was de inhoud van de slogan helder?" },
     "Question", { q: "Vond u dit product interessant?" },
     "Question", { q: "Zou u dit product aan anderen aanbevelen?" },
-    "Question", { q: "Zou u dit product kopen?" },
+    "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_4", 3 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door Dolormed." ] ] },
