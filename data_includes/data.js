@@ -66,11 +66,11 @@ var items =
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item4_1", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verleent altijd zekerheid" ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verleent altijd zekerheid." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item4_2", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Zekerheid wordt altijd verleend door <>" ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Zekerheid wordt altijd verleend door <>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item4_3", 4 ],
@@ -86,7 +86,7 @@ var items =
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item5_2", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Rugklachten worden effectief verminderd door <>" ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Rugklachten worden effectief verminderd door <>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
   [ [ "item5_3", 5 ],
@@ -95,6 +95,22 @@ var items =
   ],
   [ [ "item5_4", 5 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het zijn rugklachten die effectief verminderd worden door <>." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item6_1", 6 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> reinigt grondig jouw huis." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item6_2", 6 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw huis wordt grondig gereinigd door <>." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item6_3", 6 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat jouw huis grondig reinigt." ] ] },
+    "Question", { q: "Zou je dit product kopen?" }
+  ],
+  [ [ "item6_4", 6 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw huis dat grondig gereinigd wordt door <>." ] ] },
     "Question", { q: "Zou je dit product kopen?" }
   ],
 ];
