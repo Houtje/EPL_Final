@@ -129,7 +129,7 @@ var items =
   [ [ "item7_4", 7 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw dag die verwarmend begonnen wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
-  ]
+  ],
   [ [ "item8_1", 8 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> bedekt gelijkmatig elke muur." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
@@ -145,7 +145,7 @@ var items =
   [ [ "item8_4", 8 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijktmatig bedekt wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
-  ]
+  ],
   [ [ "item9_1", 9 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> beschermt zorgvuldig uw geld." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
@@ -223,7 +223,7 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item13_4", 13 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw muziek dat ruisloos gedraaid wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw muziek die ruisloos gedraaid wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ]
 ];
