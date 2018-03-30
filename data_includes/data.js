@@ -130,4 +130,36 @@ var items =
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw dag die verwarmend begonnen wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ]
+  [ [ "item8_1", 8 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> bedekt gelijkmatig elke muur." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item8_2", 8 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Elke muur wordt gelijkmatig bedekt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item8_3", 8 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat elke muur gelijkmatig bedekt." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item8_4", 8 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijktmatig bedekt wordt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ]
+  [ [ "item9_1", 9 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> beschermt zorgvuldig uw geld." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item9_2", 9 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw geld wordt zorgvuldig beschermd door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item9_3", 9 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat uw geld zorgvuldig beschermt." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item9_4", 9 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw geld dat zorgvuldig beschermd wordt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ]
 ];
