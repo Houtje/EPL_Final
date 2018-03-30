@@ -161,5 +161,37 @@ var items =
   [ [ "item9_4", 9 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw geld dat zorgvuldig beschermd wordt door <>." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item10_1", 10 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verdrijft veilig al het ongedierte." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item10_2", 10 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Al het ongedierte wordt veilig verdreven door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item10_3", 10 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat al het ongedierte veilig verdrijft." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item10_4", 10 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is al het ongedierte dat veilig verdreven wordt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item11_1", 11 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verbreedt informatief uw horizon." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item11_2", 11 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw horizon wordt informatief verbreed door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item11_3", 11 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat uw horizon informatief verbreedt." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
+  ],
+  [ [ "item11_4", 11 ],
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw horizon die informatief verbreed wordt door <>." ] ] },
+    "Question", { q: "Zou u dit product kopen?" }
   ]
 ];
