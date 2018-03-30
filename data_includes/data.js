@@ -15,7 +15,7 @@ var defaults =
 
 var items =
 [
-  [ "sep", "Separator", { transfer: 1000, normalMessage: "Hierna volgt nog een slogan." } ],
+  [ "sep", "Separator", { transfer: 900, normalMessage: "Hierna volgt nog een slogan." } ],
   [ "intro", "Form", { continueMessage: "Klik hier om door te gaan", html: { include: "intro.html" } } ],
   [ "instructions", "Message", { html: { include: "instructions.html" } } ], 
   [ [ "item1_1", 1 ],
@@ -35,195 +35,179 @@ var items =
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_1", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "FlashClick fotografeert onmiddelijk jouw herinnering." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Flashclick fotografeert onmiddelijk jouw herinnering." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_2", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door FlashClick." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw herinnering wordt onmiddelijk gefotografeerd door Flashclick." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item2_3", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is FlashClick die jouw herinnering onmiddelijk fotografeert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Flashclick die jouw herinnering onmiddelijk fotografeert." ] ] },
     "Question", { q: "Zou u dit product kopen?" },
   ],
   [ [ "item2_4", 2 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door FlashClick." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw herinnering die onmiddelijk gefotografeerd wordt door Flashclick." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_1", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verlicht langdurig de pijn." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Dolormed verlicht langdurig de pijn." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_2", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "De pijn wordt langdurig verlicht door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "De pijn wordt langdurig verlicht door Dolormed." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item3_3", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat de pijn langdurig verlicht." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Dolormed dat de pijn langdurig verlicht." ] ] },
     "Question", { q: "Zou u dit product kopen?" },
   ],
   [ [ "item3_4", 3 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is de pijn die langdurig verlicht wordt door Dolormed." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_1", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verleent altijd zekerheid." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Baremal vermindert effectief rugklachten." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_2", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Zekerheid wordt altijd verleend door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Rugklachten worden effectief verminderd door Baremal." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_3", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat zekerheid altijd verleent." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Baremal dat rugklachten effectief vermindert." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item4_4", 4 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is zekerheid wat altijd verleend wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het zijn rugklachten die effectief verminderd worden door Baremal." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_1", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> vermindert effectief rugklachten." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Coluni reinigt grondig jouw huis." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_2", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Rugklachten worden effectief verminderd door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw huis wordt grondig gereinigd door Coluni." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_3", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat rugklachten effectief vermindert." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Coluni die jouw huis grondig reinigt." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item5_4", 5 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het zijn rugklachten die effectief verminderd worden door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw huis dat grondig gereinigd wordt door Coluni." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item6_1", 6 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> reinigt grondig jouw huis." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Chaya begint verwarmend uw dag." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item6_2", 6 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw huis wordt grondig gereinigd door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw dag wordt verwarmend begonnen door Chaya." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item6_3", 6 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat jouw huis grondig reinigt." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Chaya dat uw dag verwarmend begint." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item6_4", 6 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw huis dat grondig gereinigd wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw dag die verwarmend begonnen wordt door Chaya." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item7_1", 7 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> begint verwarmend uw dag." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Ferva bedekt gelijkmatig elke muur." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item7_2", 7 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw dag wordt verwarmend begonnen door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Elke muur wordt gelijkmatig bedekt door Ferva." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item7_3", 7 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat uw dag verwarmend begint." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Ferva dat elke muur gelijkmatig bedekt." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item7_4", 7 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw dag die verwarmend begonnen wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijkmatig bedekt wordt door Ferva." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item8_1", 8 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> bedekt gelijkmatig elke muur." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Dengir beschermt zorgvuldig uw geld." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item8_2", 8 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Elke muur wordt gelijkmatig bedekt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw geld wordt zorgvuldig beschermd door Dengir." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item8_3", 8 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat elke muur gelijkmatig bedekt." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Dengir die uw geld zorgvuldig beschermt." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item8_4", 8 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elke muur die gelijkmatig bedekt wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw geld dat zorgvuldig beschermd wordt door Dengir." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item9_1", 9 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> beschermt zorgvuldig uw geld." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Paraz verdrijft veilig al het ongedierte." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item9_2", 9 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw geld wordt zorgvuldig beschermd door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Al het ongedierte wordt veilig verdreven door Paraz." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item9_3", 9 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat uw geld zorgvuldig beschermt." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Paraz dat al het ongedierte veilig verdrijft." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item9_4", 9 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw geld dat zorgvuldig beschermd wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is al het ongedierte dat veilig verdreven wordt door Paraz." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item10_1", 10 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verdrijft veilig al het ongedierte." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Planara verbreedt informatief uw horizon." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item10_2", 10 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Al het ongedierte wordt veilig verdreven door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw horizon wordt informatief verbreed door Planara." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item10_3", 10 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat al het ongedierte veilig verdrijft." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Planara die uw horizon informatief verbreedt." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item10_4", 10 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is al het ongedierte dat veilig verdreven wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw horizon die informatief verbreed wordt door Planara." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item11_1", 11 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verbreedt informatief uw horizon." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Salsaco verscherpt verrassend elk gerecht." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item11_2", 11 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Uw horizon wordt informatief verbreed door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Elk gerecht wordt verrassend verscherpt door Salsaco." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item11_3", 11 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat uw horizon informatief verbreedt." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Salsaco dat elk gerecht verrassend verscherpt." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item11_4", 11 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is uw horizon die informatief verbreed wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elk gerecht dat verrassend verscherpt wordt door Salsaco." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item12_1", 12 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> verscherpt verrassend elk gerecht." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Grammasta draait ruisloos jouw muziek." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item12_2", 12 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Elk gerecht wordt verrassend verscherpt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw muziek wordt ruisloos gedraaid door Grammasta." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item12_3", 12 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat elk gerecht verrassend verscherpt." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is Grammasta die jouw muziek ruisloos draait." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ],
   [ [ "item12_4", 12 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is elk gerecht dat verrassend verscherpt wordt door <>." ] ] },
-    "Question", { q: "Zou u dit product kopen?" }
-  ],
-  [ [ "item13_1", 13 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "<> draait ruisloos jouw muziek." ] ] },
-    "Question", { q: "Zou u dit product kopen?" }
-  ],
-  [ [ "item13_2", 13 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Jouw muziek wordt ruisloos gedraaid door <>." ] ] },
-    "Question", { q: "Zou u dit product kopen?" }
-  ],
-  [ [ "item13_3", 13 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is <> dat jouw muziek ruisloos draait." ] ] },
-    "Question", { q: "Zou u dit product kopen?" }
-  ],
-  [ [ "item13_4", 13 ],
-    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw muziek die ruisloos gedraaid wordt door <>." ] ] },
+    "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Het is jouw muziek die ruisloos gedraaid wordt door Grammasta." ] ] },
     "Question", { q: "Zou u dit product kopen?" }
   ]
 ];
