@@ -1,5 +1,5 @@
-var shuffleSequence = seq("intro", "comments", "instructions");
-// sepWith("sep", rshuffle(startsWith("item")
+var shuffleSequence = seq("intro", "instructions", sepWith("sep", rshuffle(startsWith("item"))), "comments");
+// 
 var completionMessage = "Uw antwoorden zijn verzonden naar de server. Bedankt voor uw deelname!"
 
 var sendingResultsMessage = "Antwoorden aan het verzenden..."
