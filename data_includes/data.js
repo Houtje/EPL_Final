@@ -17,6 +17,7 @@ var items =
 [
   [ "sep", "Separator", { transfer: 900, normalMessage: "Hierna volgt nog een slogan." } ],
   [ "intro", "Form", { continueMessage: "Klik hier om door te gaan", html: { include: "intro.html" } } ],
+  [ "comments", "Form", { continueMessage: "Klik hier om door te gaan", html: { include: "comments.html" } } ],
   [ "instructions", "Message", { html: { include: "instructions.html" } } ], 
   [ [ "item1_1", 1 ],
     "Message", { html: [ [ "div", { style: "text-align: center;" } ], [ "p", "Multifex doorboort razendsnel de hemel." ] ] },
