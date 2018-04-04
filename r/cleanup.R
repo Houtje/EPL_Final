@@ -31,3 +31,6 @@ mean_kern_1 <- aggregate(kernels$answer, by=list(prod=kernels$product, q=kernels
 # bplot(3, "Recommendation")
 # bplot(4, "Buying")
 
+ggplot(kernels, aes(x=product, y=answer, fill=question)) + 
+  geom_bar(position=position_dodge(), stat="identity")
+
