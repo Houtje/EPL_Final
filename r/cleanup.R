@@ -23,7 +23,7 @@ cres <- data.frame(ID=cres$V1, product=floor(cres$V4/4), tform=mod((cres$V4), 4)
                    answer=as.numeric(as.character(cres$V9)), rt=cres$V11)
 kernels <- cres[cres$tform == 0,]
 
-mean_prod_1 <- aggregate(cres$answer, by=list(prod=cres$product, q=cres$question), FUN=mean)
+mean_prod_1 <- aggregate(cres$answer, by=list(product=cres$product, question=cres$question, transform=cres$tform), FUN=mean)
 mean_kern_1 <- aggregate(kernels$answer, by=list(prod=kernels$product, q=kernels$question), FUN=mean)
 
 # bplot(1, "Clarity")
@@ -31,6 +31,13 @@ mean_kern_1 <- aggregate(kernels$answer, by=list(prod=kernels$product, q=kernels
 # bplot(3, "Recommendation")
 # bplot(4, "Buying")
 
-ggplot(kernels, aes(x=product, y=answer, fill=question)) + 
-  geom_bar(position=position_dodge(), stat="identity")
+mean_prod_1$product = as.factor(mean_prod_1$product)
+
+mean_prod_1$question[mean_prod_1$question == 1] = "Clarity"
+mean_prod_1$question[mean_prod_1$question == 2] = "Interest"
+mean_prod_1$question[mean_prod_1$question == 3] = "Recommendation"
+mean_prod_1$question[mean_prod_1$question == 4] = "Buying"
+
+ggplot(mean_prod_1, aes(x=transform, y=x, fill=question)) + 
+  geom_bar(position = "dodge", stat="identity") + facet_wrap(~product)
 
