@@ -43,7 +43,7 @@ mean_prod_1$product[mean_prod_1$product == 7] = "Paint"
 mean_prod_1$product[mean_prod_1$product == 8] = "Bank"
 mean_prod_1$product[mean_prod_1$product == 9] = "Pesticide"
 mean_prod_1$product[mean_prod_1$product == 10] = "Travel guide"
-mean_prod_1$product[mean_prod_1$product == 12] = "Chili sauce"
+mean_prod_1$product[mean_prod_1$product == 11] = "Chili sauce"
 mean_prod_1$product[mean_prod_1$product == 12] = "Record player"
 
 mean_prod_1$question[mean_prod_1$question == 1] = "Clarity"
