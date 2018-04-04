@@ -31,7 +31,20 @@ mean_kern_1 <- aggregate(kernels$answer, by=list(prod=kernels$product, q=kernels
 # bplot(3, "Recommendation")
 # bplot(4, "Buying")
 
-mean_prod_1$product = as.factor(mean_prod_1$product)
+#mean_prod_1$product = as.factor(mean_prod_1$product)
+
+mean_prod_1$product[mean_prod_1$product == 1] = "Drill"
+mean_prod_1$product[mean_prod_1$product == 2] = "Camera"
+mean_prod_1$product[mean_prod_1$product == 3] = "Painkiller"
+mean_prod_1$product[mean_prod_1$product == 4] = "Back pain reliever"
+mean_prod_1$product[mean_prod_1$product == 5] = "Cleaning product"
+mean_prod_1$product[mean_prod_1$product == 6] = "Tea"
+mean_prod_1$product[mean_prod_1$product == 7] = "Paint"
+mean_prod_1$product[mean_prod_1$product == 8] = "Bank"
+mean_prod_1$product[mean_prod_1$product == 9] = "Pesticide"
+mean_prod_1$product[mean_prod_1$product == 10] = "Travel guide"
+mean_prod_1$product[mean_prod_1$product == 12] = "Chili sauce"
+mean_prod_1$product[mean_prod_1$product == 12] = "Record player"
 
 mean_prod_1$question[mean_prod_1$question == 1] = "Clarity"
 mean_prod_1$question[mean_prod_1$question == 2] = "Interest"
@@ -39,5 +52,5 @@ mean_prod_1$question[mean_prod_1$question == 3] = "Recommendation"
 mean_prod_1$question[mean_prod_1$question == 4] = "Buying"
 
 ggplot(mean_prod_1, aes(x=transform, y=x, fill=question)) + 
-  geom_bar(position = "dodge", stat="identity") + facet_wrap(~product)
+  geom_bar(position = "dodge", stat="identity") + facet_wrap(~product) + ylab("Mean Rating")
 
