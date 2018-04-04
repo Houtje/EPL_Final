@@ -1,6 +1,6 @@
 # EPL final project - data processing script
 
-setwd("C:/Users/Joris/Desktop/meuk")
+setwd("C:/Users/Joris/Documents/GitHub/EPL_Final/r")
 
 library(numbers)
 
@@ -17,7 +17,7 @@ bplot <- function(q, topic){
 res <- read.csv("results.csv", header=FALSE, comment.char="#", na.strings="NULL", encoding="UTF-8")
 com <- as.vector(res[(res$V6 == "comments") & (res$V9 != ""),]$V9)
 cres <- res[(res$V4 != 1) & (res$V4 != 2),]
-cres <- data.frame(ID=cres$V1, tform=mod((cres$V4-2), 4), question=cres$V5, answer=cres$V9, rt=cres$V11)
+cres <- data.frame(ID=cres$V1, tform=mod((cres$V4), 4), question=cres$V5, answer=cres$V9, rt=cres$V11)
 
 bplot(1, "Clarity")
 bplot(2, "Interest")
