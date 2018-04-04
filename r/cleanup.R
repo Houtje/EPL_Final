@@ -17,9 +17,10 @@ bplot <- function(q, topic){
 res <- read.csv("results.csv", header=FALSE, comment.char="#", na.strings="NULL", encoding="UTF-8")
 com <- as.vector(res[(res$V6 == "comments") & (res$V9 != ""),]$V9)
 cres <- res[(res$V4 != 1) & (res$V4 != 2),]
-cres <- data.frame(ID=cres$V1, tform=mod((cres$V4), 4), question=cres$V5, answer=cres$V9, rt=cres$V11)
+cres <- data.frame(ID=cres$V1, product=floor(cres$V4/4), tform=mod((cres$V4), 4), question=cres$V5, answer=cres$V9, rt=cres$V11)
 
-bplot(1, "Clarity")
-bplot(2, "Interest")
-bplot(3, "Recommendation")
-bplot(4, "Buying")
+# bplot(1, "Clarity")
+# bplot(2, "Interest")
+# bplot(3, "Recommendation")
+# bplot(4, "Buying")
+
