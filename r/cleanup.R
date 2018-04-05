@@ -61,6 +61,17 @@ t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 2,
 t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 3,]$x, paired=TRUE)
 
 
+# Apply t-test to question pairs
+# TODO: not sure in what way
+wilcox.test(mean_prod[mean_prod$question == 2,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+wilcox.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+wilcox.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+
+wilcox.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 2,]$x, paired=TRUE)
+wilcox.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 2,]$x, paired=TRUE)
+wilcox.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 3,]$x, paired=TRUE)
+
+
 mean_prod$product[mean_prod$product == 1] = "Drill"
 mean_prod$product[mean_prod$product == 2] = "Camera"
 mean_prod$product[mean_prod$product == 3] = "Painkiller"
