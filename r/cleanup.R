@@ -91,8 +91,8 @@ mean_prod$question[mean_prod$question == 2] = "Interest"
 mean_prod$question[mean_prod$question == 3] = "Recommendation"
 mean_prod$question[mean_prod$question == 4] = "Buying"
 
-ggplot(mean_prod, aes(x=product, y=x, group=question, color=question)) +
-  geom_line(linetype = "dashed") + geom_point() + theme(legend.position="bottom") +
+ggplot(mean_prod, aes(x=product, y=x, group=question, fill=question)) +
+  geom_bar(position = "dodge", stat="identity") + theme(legend.position="bottom") +
   xlab("Product") + ylab("Mean Rating") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 # Calculate Cronbach's alpha
