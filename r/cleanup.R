@@ -1,8 +1,8 @@
 # EPL final project - data processing script
 
 # Working directories
-setwd("C:/Users/Joris/Documents/GitHub/EPL_Final/r")
-# setwd("C:/Users/Arianne/Documents/EPL_Final/r/")
+# setwd("C:/Users/Joris/Documents/GitHub/EPL_Final/r")
+setwd("C:/Users/Arianne/Documents/EPL_Final/r/")
 
 # Mod, plot and alpha libraries
 library(numbers)
@@ -52,9 +52,13 @@ legend(9.5,8,legend=c("Clear","Interested","Recommend","Buy"), fill=c("red","gre
 
 # Apply t-test to question pairs
 # TODO: not sure in what way
-t.test(mean_prod[mean_prod$question == 2,]$x, mean_prod[mean_prod$question == 1,]$x)
-t.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 1,]$x)
-t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 1,]$x)
+t.test(mean_prod[mean_prod$question == 2,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+t.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 1,]$x, paired=TRUE)
+
+t.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 2,]$x, paired=TRUE)
+t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 2,]$x, paired=TRUE)
+t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 3,]$x, paired=TRUE)
 
 # Calculate Cronbach's alpha
 # Legacy code, we didn't need this after all
