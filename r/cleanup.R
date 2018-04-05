@@ -60,6 +60,30 @@ t.test(mean_prod[mean_prod$question == 3,]$x, mean_prod[mean_prod$question == 2,
 t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 2,]$x, paired=TRUE)
 t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 3,]$x, paired=TRUE)
 
+
+mean_prod$product[mean_prod$product == 1] = "Drill"
+mean_prod$product[mean_prod$product == 2] = "Camera"
+mean_prod$product[mean_prod$product == 3] = "Painkiller"
+mean_prod$product[mean_prod$product == 4] = "Back pain reliever"
+mean_prod$product[mean_prod$product == 5] = "Cleaning product"
+mean_prod$product[mean_prod$product == 6] = "Tea"
+mean_prod$product[mean_prod$product == 7] = "Paint"
+mean_prod$product[mean_prod$product == 8] = "Bank"
+mean_prod$product[mean_prod$product == 9] = "Pesticide"
+mean_prod$product[mean_prod$product == 10] = "Travel guide"
+mean_prod$product[mean_prod$product == 11] = "Chili sauce"
+mean_prod$product[mean_prod$product == 12] = "Record player"
+
+# Rename question types as well
+mean_prod$question[mean_prod$question == 1] = "Clarity"
+mean_prod$question[mean_prod$question == 2] = "Interest"
+mean_prod$question[mean_prod$question == 3] = "Recommendation"
+mean_prod$question[mean_prod$question == 4] = "Buying"
+
+ggplot(mean_prod, aes(x=product, y=x, group=question, color=question)) +
+  geom_line(linetype = "dashed") + geom_point() + theme(legend.position="bottom") +
+  xlab("Product") + ylab("Mean Rating") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
 # Calculate Cronbach's alpha
 # Legacy code, we didn't need this after all
 # ccres <- data.frame(cres$product, cres$tform, cres$question, cres$answer)
@@ -67,8 +91,6 @@ t.test(mean_prod[mean_prod$question == 4,]$x, mean_prod[mean_prod$question == 3,
 # cronbach.alpha(data.frame(mean_prod[mean_prod$question == 3,]))
 
 # Rename the product types for later visualisation
-# mean_prod_t$product = as.factor(mean_prod_t$product)
-
 mean_prod_t$product[mean_prod_t$product == 1] = "Drill"
 mean_prod_t$product[mean_prod_t$product == 2] = "Camera"
 mean_prod_t$product[mean_prod_t$product == 3] = "Painkiller"
