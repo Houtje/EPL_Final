@@ -1630,3 +1630,105 @@
 # 8. Field name.
 # 9. Field value.
 1522692591,590e639ee283ab4629ea3d3018631f18,Form,2,0,comments,NULL,comment,
+#
+# Results on Wednesday April 04 2018 20:21:56 UTC.
+# USER AGENT: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPP25.137-93) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36
+# Design number was non-random = 60
+#
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Field name.
+#     Col. 9: Field value.
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Form,1,0,intro,NULL,consent,yes
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,20,1,item5_1,5,Was de inhoud van de slogan helder?,5,NULL,36562
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Question (NULL if none).
+# 9. Answer.
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,20,2,item5_1,5,Vond u dit product interessant?,3,NULL,8343
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,20,3,item5_1,5,Zou u dit product aan anderen aanbevelen?,4,NULL,4577
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,20,4,item5_1,5,Zou u dit product kopen?,3,NULL,4663
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,36,1,item9_1,9,Was de inhoud van de slogan helder?,5,NULL,2100
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,36,2,item9_1,9,Vond u dit product interessant?,4,NULL,9335
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,36,3,item9_1,9,Zou u dit product aan anderen aanbevelen?,4,NULL,2850
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,36,4,item9_1,9,Zou u dit product kopen?,4,NULL,4600
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,19,1,item4_4,4,Was de inhoud van de slogan helder?,5,NULL,2988
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,19,2,item4_4,4,Vond u dit product interessant?,5,NULL,1559
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,19,3,item4_4,4,Zou u dit product aan anderen aanbevelen?,4,NULL,2026
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,19,4,item4_4,4,Zou u dit product kopen?,5,NULL,2335
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,9,1,item2_2,2,Was de inhoud van de slogan helder?,5,NULL,2185
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,9,2,item2_2,2,Vond u dit product interessant?,5,NULL,2197
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,9,3,item2_2,2,Zou u dit product aan anderen aanbevelen?,5,NULL,2174
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,9,4,item2_2,2,Zou u dit product kopen?,3,NULL,7672
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,4,1,item1_1,1,Was de inhoud van de slogan helder?,3,NULL,1794
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,4,2,item1_1,1,Vond u dit product interessant?,4,NULL,3310
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,4,3,item1_1,1,Zou u dit product aan anderen aanbevelen?,3,NULL,1654
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,4,4,item1_1,1,Zou u dit product kopen?,3,NULL,1649
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,14,1,item3_3,3,Was de inhoud van de slogan helder?,6,NULL,2825
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,14,2,item3_3,3,Vond u dit product interessant?,5,NULL,1462
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,14,3,item3_3,3,Zou u dit product aan anderen aanbevelen?,5,NULL,2161
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,14,4,item3_3,3,Zou u dit product kopen?,4,NULL,2421
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,25,1,item6_2,6,Was de inhoud van de slogan helder?,5,NULL,1601
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,25,2,item6_2,6,Vond u dit product interessant?,5,NULL,2010
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,25,3,item6_2,6,Zou u dit product aan anderen aanbevelen?,4,NULL,1737
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,25,4,item6_2,6,Zou u dit product kopen?,4,NULL,1836
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,30,1,item7_3,7,Was de inhoud van de slogan helder?,6,NULL,2288
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,30,2,item7_3,7,Vond u dit product interessant?,5,NULL,2409
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,30,3,item7_3,7,Zou u dit product aan anderen aanbevelen?,4,NULL,1793
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,30,4,item7_3,7,Zou u dit product kopen?,5,NULL,1538
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,41,1,item10_2,10,Was de inhoud van de slogan helder?,3,NULL,1903
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,41,2,item10_2,10,Vond u dit product interessant?,3,NULL,2015
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,41,3,item10_2,10,Zou u dit product aan anderen aanbevelen?,3,NULL,2320
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,41,4,item10_2,10,Zou u dit product kopen?,3,NULL,1782
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,35,1,item8_4,8,Was de inhoud van de slogan helder?,5,NULL,2284
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,35,2,item8_4,8,Vond u dit product interessant?,3,NULL,1984
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,35,3,item8_4,8,Zou u dit product aan anderen aanbevelen?,3,NULL,1403
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,35,4,item8_4,8,Zou u dit product kopen?,3,NULL,1367
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,46,1,item11_3,11,Was de inhoud van de slogan helder?,6,NULL,1384
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,46,2,item11_3,11,Vond u dit product interessant?,3,NULL,2959
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,46,3,item11_3,11,Zou u dit product aan anderen aanbevelen?,4,NULL,3891
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,46,4,item11_3,11,Zou u dit product kopen?,3,NULL,1508
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,51,1,item12_4,12,Was de inhoud van de slogan helder?,3,NULL,1502
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,51,2,item12_4,12,Vond u dit product interessant?,3,NULL,2577
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,51,3,item12_4,12,Zou u dit product aan anderen aanbevelen?,2,NULL,1272
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Question,51,4,item12_4,12,Zou u dit product kopen?,2,NULL,1910
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1522873317,dae430d8082bdcf0c5174da36b8d9cf2,Form,2,0,comments,NULL,comment,Enkele slogans gaven geen duidelijk beeld aan van wat ze precies deden. Hierdoor neig ik een product te wantrouwen%2C minder geneigd het te gaan kopen /proberen of het voor te stellen aan anderen. Ook "aanbevelen" zou ik persoonlijk pas doen als ik het zelf heb uitgeprobeerd :). In het algemeen vind ik het prettiger als er naast een slogan ook een foto van het product erbij staat%2C maakt het net even iets echter ipv alleen woorden. 
